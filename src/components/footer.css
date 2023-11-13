@@ -1,0 +1,51 @@
+.ng-footer.ng-footer-simple {
+	background-color:#000000;
+	color:#fff;
+	text-align:center;
+	padding:30px;
+}
+.ng-footer-contact {
+	display:flex;
+	flex-direction:column;
+}
+.ng-footer-section {
+	display:inline-block;
+	flex:1;
+	padding:20px 0;
+}
+
+.img-footer {
+	max-width:250px;
+	padding:15px 0;
+}
+.ng-footer-address ul {
+	list-style-type:none;
+	padding-left:0;
+	line-height:1.4em;
+}
+.ng-footer-social-icons svg {
+	fill:#fff;
+	margin:0 10px;
+}
+@media screen and (min-width:992px) {
+	.ng-footer-contact {
+		flex-direction:row;
+		align-items:center;
+	}
+  .ng-footer-social-icons svg:hover {
+  	transform:scale(1.2);
+  	transition:all .2s ease;
+  }
+}
+
+.fa-instagram {
+    color: white
+}
+
+.fa-facebook {
+    color: white
+}
+
+.fa-whatsapp {
+    color: white
+}

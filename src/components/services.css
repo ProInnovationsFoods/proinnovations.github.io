@@ -1,0 +1,67 @@
+
+.box {
+  background-color: #414141;
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+}
+
+#image-one {
+  background: url("./service1.jpeg") center;
+  background-size: cover;
+}
+
+#image-two {
+  background: url("./service2.png") center;
+  background-size: cover;
+}
+
+#image-three {
+  background: url("./service3.png") center;
+  background-size: cover;
+}
+
+#image-four {
+  background: url("./service4.jpg") center;
+  background-size: cover;
+}
+
+
+.title {
+  font-family: 'League Gothic';
+  color: white;
+  font-size: 1.2em;
+  font-weight: 100;
+}
+
+.title-services {
+  font-family: "Lucida Console";
+  color: white;
+  letter-spacing: 0.1em;
+}
+
+.services {
+  background-color: #020202;
+}
+
+/* Opacity Fade #2 */
+
+.box .overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(63, 63, 63, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  margin: 0;
+  transition: opacity 1s ease;
+}
+
+.box:hover .overlay {
+  opacity: 1;
+}
+
+h2 {
+  color: rgb(255, 255, 255);
+}
