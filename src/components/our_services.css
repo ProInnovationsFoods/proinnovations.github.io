@@ -1,0 +1,33 @@
+/* .carousel img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+} */
+.img-services {
+    max-height: 300px;
+    max-width: 100%;
+    min-height: 300px;
+    min-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-services:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    -webkit-transition: transform 2s ease-in-out;
+}
+
+.title-services {
+    font-family: 'League Gothic';
+    color: white;
+    font-size: 1em;
+    font-weight: 50;
+}
+
+.title-services-section {
+    font-family: "Lucida Console";
+    color: white;
+    letter-spacing: 0.1em;
+}
