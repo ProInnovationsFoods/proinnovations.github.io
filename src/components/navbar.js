@@ -7,7 +7,7 @@ const Navbar = (props) => {
     return (
             <nav className="sticky navbar fixed-top">
                 <div className="brand  display__logo">
-                    <a href="#top" className="nav__link"> <img src='/logo_naranja.png' className='img-navbar' alt='Something wrong'></img></a>
+                    <a href="#top" className="nav__link"> <img src='/logo_metalizado.png' className='img-navbar' alt='Something wrong'></img></a>
                 </div>
 
                 <input type="checkbox" id="nav" className="hidden" checked={checked} />

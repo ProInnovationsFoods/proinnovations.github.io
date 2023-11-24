@@ -15,16 +15,16 @@ export const Footer = () => {
 
             <div class="ng-footer-address ng-footer-section">
                 <ul>
-                    <li>victor@gmail.com</li>
+                    <li>victor.monsalve@proinnoventions.com</li>
                     <li>Maimi</li>
-                    <li>(+1) 3128043320</li>
+                    <li>(+1) 7862468833</li>
                 </ul>
             </div>
             <div class="ng-footer-social-icons ng-footer-section">
                 <p>Follow us</p>
-                <a href='https://www.instagram.com'><FontAwesomeIcon icon={faInstagram} size="4x"/></a>
-                <a href='https://www.instagram.com'><FontAwesomeIcon icon={faFacebook} size="4x"/></a>
-                <a href='https://www.instagram.com'><FontAwesomeIcon icon={faWhatsapp} size="4x"/></a>
+                <a href='https://api.whatsapp.com/send?phone=17862468833'><FontAwesomeIcon icon={faInstagram} size="4x"/></a>
+                <a href='https://api.whatsapp.com/send?phone=17862468833'><FontAwesomeIcon icon={faFacebook} size="4x"/></a>
+                <a href='https://api.whatsapp.com/send?phone=17862468833'><FontAwesomeIcon icon={faWhatsapp} size="4x"/></a>
             </div>
         </section>
     </footer>
