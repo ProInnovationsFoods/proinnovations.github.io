@@ -1,6 +1,7 @@
 import { VideoIntro } from "../components/video";
 import { ContactUs } from "../components/contact-us";
 import { Footer } from "../components/footer";
+import { About } from "../components/about";
 import { OurServices } from "../components/our_services";
 import Navbar from "../components/navbar";
 import Projects from "../components/projects";
@@ -15,6 +16,7 @@ const Home = (props) => {
             <main>
                 <VideoIntro/>
                 {/* <Services/> */}
+                <About/>
                 <OurServices/>
                 {/* <Projects/> */}
                 <ContactUs/>

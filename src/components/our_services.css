@@ -29,8 +29,10 @@
  */
 
  .title-services-section {
-    color: white;
+    color: rgb(255, 255, 255);
     letter-spacing: 0.1em;
+    font-size: 4em;
+    font-family: 'League Gothic', sans-serif;
 }
 
 img {
@@ -39,9 +41,9 @@ img {
   vertical-align: middle;
 }
 .btn {
-  background-color: white;
-  border: 1px solid #cccccc;
-  color: #696969;
+  background-color: rgb(231, 169, 24);
+  border: 1px solid rgb(231, 169, 24);
+  color: #c50d0d;
   padding: 0.5rem;
   text-transform: lowercase;
 }
@@ -73,12 +75,12 @@ img {
 }
 @media (min-width: 56rem) {
   .cards__item {
-    width: 33.3333%;
+    width: 50%;
   }
 }
 .card {
-  background-color: white;
-  border:1px solid #bfbfbf;
+  background-color: rgb(201, 0, 0);
+  border:1px solid #f52a2a;
   border-radius: 0.25rem;
   box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.38);
   display: -webkit-box;
@@ -95,6 +97,7 @@ img {
           filter: contrast(100%);
 }
 .card__content {
+  background-color: rgb(235, 167, 108);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -145,17 +148,20 @@ img {
   background-image: url('./service4.jpg');
 }
 .card__title {
-  color: #696969;
-  font-size: 1.25rem;
-  font-weight: 300;
+  color: rgb(0, 0, 0);
+  font-family: 'League Gothic', sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
 .card__text {
+  color: rgb(240, 213, 195);
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
-  font-size: 0.875rem;
+  font-size: 1.5rem;
+  font-family: 'League Gothic', sans-serif;
   line-height: 1.5;
   margin-bottom: 1.25rem;
 }
