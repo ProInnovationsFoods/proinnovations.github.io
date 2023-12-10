@@ -14,7 +14,7 @@
 }
 
 body {
-	font-family: 'Source Code Pro', monospace;
+	font-family: 'Orbitron', sans-serif;
 	line-height: 1.6;
 	margin: 0;
 }
@@ -38,7 +38,7 @@ body {
 .display__logo {
 	font-size: 2.5rem;
 	margin-bottom: .5rem;
-	font-family: inherit;
+	font-family: 'Orbitron', sans-serif;
 	font-weight: 500;
 	line-height: 1.2;
 	color: inherit;
@@ -64,6 +64,9 @@ body {
 	padding: 10px 15px;
 	text-align: center;
 	display: block;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+  	animation-name: bounceIn;
 }
 
 .logo {
@@ -261,4 +264,18 @@ body {
 #nav:checked~.nav ul li a {
 	opacity: 1;
 	transform: translateY(0);
+}
+
+@keyframes bounceIn {
+	0% {
+	  transform: scale(0.1);
+	  opacity: 0;
+	}
+	60% {
+	  transform: scale(1.2);
+	  opacity: 1;
+	}
+	100% {
+	  transform: scale(1);
+	}
 }

@@ -1,14 +1,13 @@
 import './carousel.css';
 import { Carousel } from 'react-bootstrap';
 
-const CarouselImages = (props) => {
-    const images = ['/1.jpg','/2.jpg','/3.jpg'];
+export const CarouselImages = (props) => {
     const interval = 4000;
 
     return (
         <div className='carousel' id='home'>
             <Carousel fade interval={interval}>
-                {images.map((image) => {
+                {props.images.map((image) => {
                     return (
                         <Carousel.Item>
                             <img
@@ -23,5 +22,3 @@ const CarouselImages = (props) => {
         </div>
       );
 };
-
-export default CarouselImages;

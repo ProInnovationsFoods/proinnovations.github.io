@@ -21,7 +21,6 @@ const Navbar = (props) => {
                         <li className="nav__item"><a href="#home" className="nav__link" onClick={()=>{setChecked(false)}}>HOME</a></li>
                         <li className="nav__item"><a href="#about" className="nav__link" onClick={()=>{setChecked(false)}}>ABOUT US</a></li>
                         <li className="nav__item"><a href="#services" className="nav__link" onClick={()=>{setChecked(false)}}>SERVICES</a></li>
-                        <li className="nav__item"><a href="#contact-us" className="nav__link" onClick={()=>{setChecked(false)}}>CONTACT US</a></li>
                     </ul>
                 </div>
             </nav>

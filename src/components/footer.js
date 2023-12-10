@@ -10,7 +10,7 @@ export const Footer = () => {
     <footer class="ng-footer ng-footer-simple">
         <section class="ng-footer-contact">
             <div class="ng-footer-links ng-footer-section">
-				<img src="/logo_metalizado.png" alt="Something went wrong" className='img-footer'/>
+				<img src="/logo_metalizado.png" alt="Something went wrong" className='img-footer grow'/>
             </div>
 
             <div class="ng-footer-address ng-footer-section">
