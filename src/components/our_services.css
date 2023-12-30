@@ -31,7 +31,7 @@
  .title-services-section {
     color: rgb(255, 255, 255);
     letter-spacing: 0.1em;
-    font-size: 4em;
+    font-size: 3em;
     font-family: 'Orbitron', sans-serif;
 }
 
@@ -134,18 +134,6 @@ img {
   .card__image::before {
     padding-top: 66.6%;
   }
-}
-.card__image--service1 {
-  background-image: url('./service1.jpeg');
-}
-.card__image--service2 {
-  background-image: url('./service2.png');
-}
-.card__image--service3 {
-  background-image: url('./service3.png');
-}
-.card__image--service4 {
-  background-image: url('./service4.jpg');
 }
 .card__title {
   color: rgb(0, 0, 0);

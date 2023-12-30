@@ -6,27 +6,6 @@
   overflow: hidden;
 }
 
-#image-one {
-  background: url("./service1.jpeg") center;
-  background-size: cover;
-}
-
-#image-two {
-  background: url("./service2.png") center;
-  background-size: cover;
-}
-
-#image-three {
-  background: url("./service3.png") center;
-  background-size: cover;
-}
-
-#image-four {
-  background: url("./service4.jpg") center;
-  background-size: cover;
-}
-
-
 .title {
   font-family: 'Orbitron', sans-serif;
   color: white;
