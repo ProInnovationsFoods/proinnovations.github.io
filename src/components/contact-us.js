@@ -10,7 +10,7 @@ export const ContactUs = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_auq8jq2', 'template_kczsqvt', form.current, 'B11NSTtibUKKBAkNv')
+    emailjs.sendForm('service_dtytg14', 'template_9hve0o3', form.current, 'ACo2C_OLpZJ5BCs3M')
         .then((result) => {
             setSuccessfulSending(true);
             setWrongSending(false);
@@ -26,7 +26,7 @@ export const ContactUs = () => {
                 <div className='container'>
                     {wrongSending && (
                         <div class='flex-row d-flex justify-content-center'>
-                            <p class="text-danger px-3 py-3">Algo salió mal, por favor intentalo más tarde.</p>
+                            <p class="text-danger px-3 py-3">Something was wrong! Please refresh the page</p>
                         </div>
                     )}
                     <div class='flex-row d-flex justify-content-center'>
@@ -58,7 +58,7 @@ export const ContactUs = () => {
             <div className='contact'>
                 <div className='container'>
                     <div class='flex-row d-flex justify-content-center'>
-                        <h3 className='px-5 py-5 success-message'>¡Mensaje enviado correctamente!</h3>
+                        <h3 className='px-5 py-5 success-message'>The message was sent correctly!</h3>
                     </div>
                 </div>
             </div>

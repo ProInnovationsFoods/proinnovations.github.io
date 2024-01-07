@@ -20,7 +20,7 @@ const Home = (props) => {
                 <About/>
                 <OurServices/>
                 {/* <Projects/> */}
-                {/* <ContactUs/> */}
+                <ContactUs/>
                 <Footer/>
                 <WhatsappButton/>
             </main>
