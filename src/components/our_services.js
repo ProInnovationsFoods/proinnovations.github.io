@@ -34,7 +34,7 @@ export const OurServices = () => {
                         {/* <div class="card__image card__image--service3"></div> */}
                             <CarouselImages images={['/manufacture_1_transformed.png', '/manufacture_2_transformed.png', '/manufacture_3_transformed.png', 'manufacture_4.jpeg']}></CarouselImages>
                         <div class="card__content">
-                            <div class="card__title mb-3">Manufacture of Metal-Mechanical solutions</div>
+                            <div class="card__title mb-3">Manufacturing of Metal-Mechanical solutions</div>
                             <p class="card__text">Precision and durability are the cornerstones of our Manufacture of Metal-Mechanical Solutions. Whether it's custom machinery components, structural elements, or intricate parts, we leverage advanced manufacturing techniques to produce high-quality metal-mechanical solutions. From concept to fabrication, we take pride in delivering products that meet the highest industry standards.</p>
                         </div>
                         </div>
@@ -43,7 +43,7 @@ export const OurServices = () => {
                         <div class="card">
                             <CarouselImages images={['/engineering_parts-transformed.jpeg','/engineering_parts_2_transformed.png']}></CarouselImages>
                         <div class="card__content">
-                            <div class="card__title mb-3 justify-content-center">Engineering Parts service</div>
+                            <div class="card__title mb-3 justify-content-center">Our Engineering parts service division</div>
                             <p class="card__text ">Detail-oriented and client-focused, our Engineering Parts Service is dedicated to providing you with the exact components your project demands. Our skilled engineers work closely with you to understand your specifications, ensuring that the parts we produce not only meet but exceed your expectations. From prototypes to mass production, we deliver precision-engineered parts for a wide range of applications.</p>
                         </div>
                         </div>
