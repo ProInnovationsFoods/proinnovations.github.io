@@ -15,7 +15,11 @@ export const Footer = () => {
 
             <div class="ng-footer-address ng-footer-section">
                 <ul>
-                    <li>victor.monsalve@proinnoventions.com</li>
+                    <li>victor.monsalve@proinnoventions.co</li>
+                    <li>Victor Monsalve</li>
+                    <li>7255 NW 68TH ST STE 1 UNIT 1</li>
+                    <li>Miami, FL 33166-3015</li>
+                    <li>United States</li>
                     <li>(+1) 7862468833</li>
                 </ul>
             </div>
