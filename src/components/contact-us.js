@@ -10,7 +10,7 @@ export const ContactUs = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_dtytg14', 'template_9hve0o3', form.current, 'ACo2C_OLpZJ5BCs3M')
+    emailjs.sendForm('service_5u1jqmh', 'template_j83p0xo', form.current, 'NY6JDlZxMiPbqO13g')
         .then((result) => {
             setSuccessfulSending(true);
             setWrongSending(false);
