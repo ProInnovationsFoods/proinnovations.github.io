@@ -6,10 +6,16 @@ const Navbar = (props) => {
     
     return (
             <nav className="sticky navbar fixed-top">
-                <div className="brand  display__logo">
-                    <a href="#top" className="nav__link"> <img src='/logo_metalizado.png' className='img-navbar' alt='Something wrong'></img></a>
+                <div className="nav__items">
+                    <div className="brand  display__logo">
+                        <a href="#top" className="nav__link"> <img src='/logo_metalizado.png' className='img-navbar' alt='Something wrong'></img></a>
+                    </div>
+                    <a className="brand text_logo d-none d-md-block">
+                        PROINNOVENTIONS
+                        <hr className="brand-divider" />
+                        <p className="text_sub_logo">INDUSTRY</p>
+                    </a>
                 </div>
-
                 <input type="checkbox" id="nav" className="hidden" checked={checked} />
                 <label for="nav" className="nav__open" onClick={() => {
                         let value = checked? false: true; 

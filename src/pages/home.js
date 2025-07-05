@@ -5,8 +5,6 @@ import { About } from "../components/about";
 import { WhatsappButton } from "../components/whatsapp-button";
 import { OurServices } from "../components/our_services";
 import Navbar from "../components/navbar";
-import Projects from "../components/projects";
-import Services from "../components/services";
 import './home.css';
 
 
